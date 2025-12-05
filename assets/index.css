@@ -1,3 +1,4 @@
+/***** CSS FONT *****/ 
 .logo{
     font-family: "aglet-slab-variable",sans-serif;
     font-variation-settings: 'wght' 600;
@@ -23,3 +24,27 @@ h3, nav{
     font-weight: 400;
     font-style: normal;
 }
+/***** CSS FONT *****/ 
+/***** CSS GRID *****/ 
+.header{
+    display:grid;
+    grid-template-columns:1fr 6fr;
+}
+.container{
+    display:grid;
+    grid-template-rows: auto ;
+    grid-template-columns: auto ;
+}
+ /***** CSS GRID *****/
+/***** CSS MENU *****/
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    gap:2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+} 
+/***** CSS MENU *****/ 
