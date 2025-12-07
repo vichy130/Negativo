@@ -48,3 +48,14 @@ nav ul li a{
     color: black;
 } 
 /***** CSS MENU *****/ 
+
+/***** CSS IMAGES *****/ 
+img{
+    width: 80%;
+      transform: translateY(-30%);
+}
+.corte{
+    height:70%;
+    overflow: hidden;
+}
+/***** CSS IMAGES *****/ 
